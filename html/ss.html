@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club - Registration & Contact</title>
+</head>
+<body>
+
+    <!-- 1. Header Section -->
+    <header>
+        <h1>Welcome to FitLife Club</h1>
+        <nav>
+            <a href="#about">About Us</a> | 
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <hr />
+
+    <!-- 2. Main Content -->
+    <main>
+
+        <!-- Section 1: About Us -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a modern fitness center dedicated to helping you achieve your health and personal goals.</p>
+            <!-- Image Tag -->
+            <img src="https://via.placeholder.com/400x200" alt="Fitness Center Gym" />
+        </section>
+
+        <hr />
+
+        <!-- Section 2: Registration & Contact Form -->
+        <section id="contact">
+            <h2>Member Registration Form</h2>
+            
+            <form action="#" method="POST">
+                
+                <!-- Text Input -->
+                <div>
+                    <label for="fullname">Full Name:</label> <br />
+                    <input type="text" id="fullname" name="fullname" required />
+                </div>
+                <br />
+
+                <!-- Email Input -->
+                <div>
+                    <label for="email">Email Address:</label> <br />
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <br />
+
+                <!-- Tel Input -->
+                <div>
+                    <label for="phone">Phone Number:</label> <br />
+                    <input type="tel" id="phone" name="phone" />
+                </div>
+                <br />
+
+                <!-- Number Input with min and max -->
+                <div>
+                    <label for="age">Age:</label> <br />
+                    <input type="number" id="age" name="age" min="15" max="80" />
+                </div>
+                <br />
+
+                <!-- Date Input with min and max -->
+                <div>
+                    <label for="join_date">Preferred Join Date:</label> <br />
+                    <input type="date" id="join_date" name="join_date" min="2026-08-01" max="2026-12-31" />
+                </div>
+                <br />
+
+                <!-- Color Input -->
+                <div>
+                    <label for="shirt_color">Choose Locker/Shirt Color:</label> <br />
+                    <input type="color" id="shirt_color" name="shirt_color" value="#ff0000" />
+                </div>
+                <br />
+
+                <!-- Select Dropdown -->
+                <div>
+                    <label for="membership_type">Membership Type:</label> <br />
+                    <select id="membership_type" name="membership_type">
+                        <option value="">-- Select Option --</option>
+                        <option value="basic">Basic (1 Month)</option>
+                        <option value="pro">Pro (6 Months)</option>
+                        <option value="vip">VIP (1 Year)</option>
+                    </select>
+                </div>
+                <br />
+
+                <!-- Radio Buttons (Gender) -->
+                <div>
+                    <label>Gender:</label> <br />
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male" />
+                    
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female" />
+                </div>
+                <br />
+
+                <!-- Checkboxes (Hobbies / Activities) -->
+                <div>
+                    <label>Interests / Activities:</label> <br />
+                    <label for="swimming">Swimming</label>
+                    <input type="checkbox" id="swimming" name="interests" value="swimming" />
+                    
+                    <label for="cardio">Cardio</label>
+                    <input type="checkbox" id="cardio" name="interests" value="cardio" />
+                    
+                    <label for="weights">Weight Lifting</label>
+                    <input type="checkbox" id="weights" name="interests" value="weights" />
+                </div>
+                <br />
+
+                <!-- File Input -->
+                <div>
+                    <label for="id_card">Upload ID / Medical Certificate:</label> <br />
+                    <input type="file" id="id_card" name="id_card" />
+                </div>
+                <br />
+
+                <!-- Submit Button -->
+                <button type="submit">Submit Registration</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr />
+
+    <!-- 3. Footer Section -->
+    <footer>
+        <p>&copy; 2026 FitLife Club. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

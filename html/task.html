@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Academy</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>lara</h1>
+      <nav></nav>
+    </header>
+
+    <main>
+      <h2>About Us</h2>
+      <p>Welcome to Tech Academy for modern technology and software engineering courses.</p>
+      <img src="../images./techacademy.jpeg" alt="Tech academy" />
+
+      <hr />
+
+      <form>
+        <h3>Register New Student</h3>
+
+        <div>
+          <label for="firstName">First Name:</label>
+          <input 
+            type="text" 
+            name="firstName" 
+            id="firstName" 
+            required 
+            placeholder="Enter first name" 
+          />
+        </div>
+
+        <div>
+          <label for="lastName">Last Name:</label>
+          <input 
+            type="text" 
+            name="lastName" 
+            id="lastName" 
+            placeholder="Enter last name" 
+            required 
+          />
+        </div>
+
+        <div>
+          <label for="email">Email Address:</label>
+          <input 
+            type="email" 
+            name="email" 
+            id="email" 
+            placeholder="example@email.com" 
+            required 
+          />
+        </div>
+
+        <div>
+          <label for="password">Password:</label>
+          <input 
+            type="password" 
+            name="password" 
+            id="password" 
+            required 
+          />
+        </div>
+
+        <div>
+          <label for="phoneNumber">Phone Number:</label>
+          <input 
+            type="tel" 
+            name="phoneNumber" 
+            id="phoneNumber" 
+          />
+        </div>
+
+        <div>
+          <label for="age">Age:</label>
+          <input 
+            type="number" 
+            name="age" 
+            id="age" 
+            required 
+          />
+        </div>
+
+        <div>
+          <label>Gender:</label> <br />
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male" />
+          <br />
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female" />
+        </div>
+
+        <div>
+          <h5>Country</h5>
+          <select name="country" id="country">
+            <option value="">Select country...</option>
+            <option value="jordan">Jordan</option>
+            <option value="syria">Syria</option>
+            <option value="egypt">Egypt</option>
+            <option value="ksa">KSA</option>
+          </select>
+        </div>
+
+        <div>
+          <h5>Preferred Courses</h5>
+          <select multiple name="classes" id="classes">
+            <option value="cs">CS</option>
+            <option value="cis">CIS</option>
+            <option value="cys">CYS</option>
+            <option value="bit">BIT</option>
+          </select>
+        </div>
+
+        <div>
+          <h5>Hobbies / Activities</h5>
+          <label for="swim">Swimming</label>
+          <input type="checkbox" name="hobby" id="swim" value="swim" />
+          <br />
+          <label for="running">Running</label>
+          <input type="checkbox" name="hobby" id="running" value="running" />
+        </div>
+
+        <div>
+          <label for="birthDate">Birth Date:</label>
+          <input type="date" name="birthDate" id="birthDate" />
+        </div>
+
+        <div>
+          <label for="joinTime">Preferred Training Time:</label>
+          <input type="time" name="joinTime" id="joinTime" />
+        </div>
+
+        <div>
+          <label for="themeColor">Favorite Color:</label>
+          <input type="color" name="themeColor" id="themeColor" value="#ff0000" />
+        </div>
+<div>
+    <input type="">
+</div>
+        <div>
+          <label for="userCv">Upload CV:</label>
+          <input type="file" name="userCv" id="userCv" />
+        </div>
+
+        <br />
+        <button type="submit">Create New Account</button>
+      </form>
+    </main>
+
+    <footer>
+
+      <p>&copy; 2026 Tech Academy. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
