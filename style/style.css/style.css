@@ -1,0 +1,16 @@
+.container {
+  width: 30%;
+  height: 30%;
+  margin: 0 ;
+  padding: 20px;
+}
+.serices {
+    align-items: center;
+    size: 30%;
+    width: 30%;
+    height: 30%;
+  display: flex;
+  border: 1px solid #0b0b0b;
+  justify-content: center;
+  flex-wrap: wrap;
+}
