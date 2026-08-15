@@ -1,0 +1,39 @@
+.container{
+    text-align: center;
+}
+.cars{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+        gap: 25px;
+
+}
+.car{
+    width: 30%;
+    height: 45%;
+    border: 1px solid rgb(107, 104, 104);
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+}
+.car img{
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+.type{
+    font-size: 30%;
+    font-weight: bold;
+}
+.view-button{
+    background-color: rgb(47, 12, 226);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 30%;
+    height: 10%;
+    cursor: pointer;
+}

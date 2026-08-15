@@ -1,0 +1,84 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 775px;
+  font-weight: bold;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.images2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position:absolute;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Public Sans Web",sans-serif;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.img1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  position: relative;}
+  .img2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  }
+  .img3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+    
+  }
+  .img4 {
+  display: flex;
+  flex-direction: row;
+    align-items: flex-end;  
+  justify-content: center;
+  gap: 20px;
+  position: relative; 
+   
+  }          
+  .h3title {
+  font-size: 22.4px;
+  font-family: "inter";
+  }  
+  .h1title {
+  font-size: 48px;
+font-family: "inter", sans-serif;  }     
