@@ -1,0 +1,73 @@
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes pulseGlow {
+    0% {
+        box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(220, 53, 69, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(220, 53, 69, 0);
+    }
+}
+.hero-fullscreen .card-title,
+.hero-fullscreen .card-text {
+    animation: fadeInUp 1.2s ease-out forwards;
+}
+.hero-fullscreen .btn-danger {
+    animation: pulseGlow 2s infinite;
+}
+.card {
+    transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1), 
+                box-shadow 0.35s ease, 
+                border-color 0.35s ease;
+}
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.6), 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+.card-img-top {
+    transition: transform 0.5s ease;
+}
+.card:hover .card-img-top {
+    transform: scale(1.08);
+}
+.btn {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.btn:hover {
+    transform: translateY(-2px);
+}
+@media screen and (max-width: 767.98px) {
+    .hero-fullscreen .card-title {
+        font-size: 2rem !important;
+    }
+    .hero-fullscreen .card-text {
+        font-size: 1rem !important;
+    }
+    .card:hover {
+        transform: translateY(-4px);
+    }
+    .table thead th, 
+    .table tbody td {
+        font-size: 0.85rem;
+        padding: 8px 4px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .hero-fullscreen .card-title {
+        font-size: 2.8rem !important;
+    }
+    .card-img-top {
+        height: 180px;
+    }
+}

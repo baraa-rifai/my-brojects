@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Sedans | Core Series</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            padding-top: 85px;
+            padding-bottom: 75px;
+        }
+        .card-img-top {
+            height: 220px;
+            object-fit: cover;
+        }
+        .m-card {
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .m-card:hover {
+            transform: translateY(-5px);
+            border-color: #0dcaf0 !important;
+        }
+    </style>
+</head>
+<body class="bg-dark text-light">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top shadow border-bottom border-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img width="40" height="40" class="rounded-circle me-2" src="./bmw.jpeg" alt="BMW Logo">
+                    <span class="fw-bold">BMW</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="puycar.html">Buy a Car</a></li>
+                                <li><a class="dropdown-item" href="booktestdrive.html">Book a Test Drive</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Models
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="bmwMpower.html">BMW M Power</a></li>
+                                <li><a class="dropdown-item" href="bmwXseries.html">BMW X SUVs</a></li>
+                                <li><a class="dropdown-item active" href="bmwseriws.html">BMW Sedan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact Us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://www.facebook.com/BMW/?locale=ar_AR" target="_blank">Facebook</a></li>
+                                <li><a class="dropdown-item" href="https://www.instagram.com/bmw/?hl=ar" target="_blank">Instagram</a></li>
+                                <li><a class="dropdown-item" href="#">Telephone</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="text-center mb-5">
+            <h1 class="display-5 fw-bold text-uppercase">BMW Sedan & Coupe Lineup</h1>
+            <p class="text-secondary">Timeless elegance, cutting-edge technology, and legendary German craftsmanship.</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-4">
+                <div class="card bg-dark text-light border-secondary h-100 shadow-sm m-card">
+                    <img src="./3s.jpeg" class="card-img-top" alt="BMW 3 Series">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold text-info">BMW 3 Series Sedan</h5>
+                        <p class="card-text text-secondary flex-grow-1">The defining sports sedan delivering dynamic handling, modern digital connectivity, and refined efficiency.</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <a href="puycar.html" class="btn btn-outline-light w-50 fw-semibold">Buy Car</a>
+                            <a href="booktestdrive.html" class="btn btn-info text-dark w-50 fw-semibold">Book Test Drive</a>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary text-center">
+                        <small class="text-secondary">2.0L Turbo | 50:50 Weight Distribution</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card bg-dark text-light border-secondary h-100 shadow-sm m-card">
+                    <img src="./4s.jpeg" class="card-img-top" alt="BMW 4 Series">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold text-info">BMW 4 Series Gran Coupe</h5>
+                        <p class="card-text text-secondary flex-grow-1">Striking aesthetics with a sweeping coupe silhouette, frameless doors, and athletic road presence.</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <a href="puycar.html" class="btn btn-outline-light w-50 fw-semibold">Buy Car</a>
+                            <a href="booktestdrive.html" class="btn btn-info text-dark w-50 fw-semibold">Book Test Drive</a>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary text-center">
+                        <small class="text-secondary">Aerodynamic Fastback Design | xDrive</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card bg-dark text-light border-secondary h-100 shadow-sm m-card">
+                    <img src="./5s.jpeg" class="card-img-top" alt="BMW 5 Series">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold text-info">BMW 5 Series Executive</h5>
+                        <p class="card-text text-secondary flex-grow-1">The quintessential business saloon combining state-of-the-art autonomous driving tech with supreme ride comfort.</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <a href="puycar.html" class="btn btn-outline-light w-50 fw-semibold">Buy Car</a>
+                            <a href="booktestdrive.html" class="btn btn-info text-dark w-50 fw-semibold">Book Test Drive</a>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary text-center">
+                        <small class="text-secondary">BMW Curved Display | Mild Hybrid</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card bg-dark text-light border-secondary h-100 shadow-sm m-card">
+                    <img src="./7s.jpeg" class="card-img-top" alt="BMW 7 Series">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold text-info">BMW 7 Series Flagship</h5>
+                        <p class="card-text text-secondary flex-grow-1">Unrivaled luxury featuring crystal headlights, the 31.3-inch rear Theater Screen, and effortless executive power.</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <a href="puycar.html" class="btn btn-outline-light w-50 fw-semibold">Buy Car</a>
+                            <a href="booktestdrive.html" class="btn btn-info text-dark w-50 fw-semibold">Book Test Drive</a>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary text-center">
+                        <small class="text-secondary">First-Class Lounge | 31.3" Theater Screen</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card bg-dark text-light border-secondary h-100 shadow-sm m-card">
+                    <img src="./8s.jpeg" class="card-img-top" alt="BMW 8 Series">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold text-info">BMW 8 Series Gran Coupe</h5>
+                        <p class="card-text text-secondary flex-grow-1">A luxury grand tourer with racecar proportions, handcrafted leather cabin appointments, and thrilling V8 torque.</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <a href="puycar.html" class="btn btn-outline-light w-50 fw-semibold">Buy Car</a>
+                            <a href="booktestdrive.html" class="btn btn-info text-dark w-50 fw-semibold">Book Test Drive</a>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary text-center">
+                        <small class="text-secondary">TwinPower Turbo V8 | CraftedClarity Glass</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom border-top border-secondary">
+        <div class="container">
+            <small>&copy; 2026 BMW. All rights reserved.</small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
